@@ -1,0 +1,82 @@
+/* Style global */
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style des éléments du jeu */
+.game {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style des scores */
+#current-score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style du dé */
+.dice {
+    font-size: 58px;
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);    
+    text-align: center;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+}
+/* Style de la boîte d'alerte pour le gagnant */
+.alert {
+    background-color: #28a745;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    animation: fadeIn 1s;
+}

@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeu de dés Studi</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Jeu de dés</h1>
+        <div class="game">
+            <p>Joueur actuel: <span id="current-player">1</span></p>
+            <p>Score du Joueur 1: <span id="score-1">0</span></p>
+            <p>Score du Joueur 2: <span id="score-2">0</span></p>
+            <p>Score courant: <span id="current-score">0</span></p>
+        </div>
+        <button id="roll-dice">Lancer le dé</button>
+        <button id="hold">Hold</button>
+        <button id="new-game">Nouvelle partie</button>
+        <div id="dice" class="dice">-</div>
+        <div class="alert">
+            <p id="winner"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
